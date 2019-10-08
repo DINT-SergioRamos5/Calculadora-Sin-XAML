@@ -39,7 +39,7 @@ namespace Calculadora_Sin_XAML
                     TextBlock tb = new TextBlock();
                     Viewbox vb = new Viewbox(); 
 
-                    tb.Text = contador.ToString();
+                    tb.Text = ((i-1)*3+j+1).ToString();
                     vb.Child = tb;
                     boton.Content = vb;
 
